@@ -7,5 +7,7 @@ export default defineConfig({
   experimental: {
     viewTransitions: true,
   },
+  site: 'https://r-ctr.github.io',
+  base: '/astro-theme-stone',
   integrations: [tailwind(), compress()],
 });
